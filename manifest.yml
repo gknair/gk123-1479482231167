@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: gk123
+  host: gk123
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-gb
